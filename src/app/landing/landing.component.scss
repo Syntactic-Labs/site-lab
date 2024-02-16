@@ -1,0 +1,43 @@
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 15px;
+  background: linear-gradient(135deg, #0C0C0C 40% , #7ED6DF );
+  color: #fff;
+  text-align: center;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+  }
+
+  p.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 2em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+  }
+
+  .btn-primary {
+    background-color: #fff;
+    color: #0C0C0C;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+}
